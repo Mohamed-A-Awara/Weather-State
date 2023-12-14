@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ventors/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    {{>Header}}
+    <h1 class="p-5 bg-light  text-center text-uppercase ">Weather</h1>
+
+    <form id="form1">
+        <label for="cName">Enter Your Country : </label>
+        <input type="text" placeholder="Egypt" id="inp1">
+        <button type="submit" class="btn btn-success  ">Search</button>
+    </form>
+    <h3 id="country" class="text-center text-capitalize p-3"></h3>
+    <h3 id="data"  class="text-center text-capitalize p-3"></h3>
+    <h3 id="error"  class="text-center text-capitalize p-3"></h3>
+
+    
+    <script src="ventors/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
